@@ -42,7 +42,7 @@ resource "aws_db_instance" "db_instance" {
   username                = "nada"
   password                = "nada123456"
   instance_class          = var.database_instance_class 
-  allocated_storage       = 20
+  allocated_storage       = 5
   db_subnet_group_name    = aws_db_subnet_group.database_subnet_group.name
   vpc_security_group_ids  = [aws_security_group.database_security_group.id]
   availability_zone       = data.aws_availability_zones.available_zones.names[1]
