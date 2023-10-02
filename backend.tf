@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket         = "malashs3-terraform-remote-state"
-    key            = "ecommerce-ecs/terraform.tfstate"
+    key            = "car-rental-ecs/terraform.tfstate"
     region         = "eu-west-3"
     profile        = "terraform-user"
     dynamodb_table = "terraform-state-lock"
