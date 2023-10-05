@@ -78,3 +78,13 @@ variable "database_instance_identifier" {
   type        = string
 }
 
+# S3 Variables
+variable "env_file_bucket_name" {
+  description = "S3 Bucket Name"
+  type        = string
+}
+
+variable "env_file_name" {
+  description = "env file name"
+  type        = string
+}
