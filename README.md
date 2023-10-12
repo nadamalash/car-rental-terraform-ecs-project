@@ -8,6 +8,12 @@
 - Developed using the LAMP stack (Linux, Apache, MySQL, PHP).
 ## Cloud Provider:
 - The decision to deploy the application on the cloud has led to the strategic choice of Amazon Web Services (AWS) as the selected cloud provider.
+## Implementation Tools:
+1. **Terraform**
+2. **Docker**
+3. **AWS Services:** ECR, ECS, VPC, Internet Gateway, NAT Gateway, ASG, ELB, EC2, RDS, S3
+## Project Architecture:
+![Project Architecture](Project_Architecture.jpg)
 ## Benefits: 
 1. Scalability:
 - AWS auto-scaling ensures optimal performance during varying traffic loads.
@@ -19,10 +25,4 @@
 - Pay-as-you-go scaling and efficient resource utilization contribute to a cost-effective infrastructure.
 5. User Experience:
 - Application deployment on AWS results in a responsive and reliable platform, ensuring a positive and uninterrupted user experience for those seeking on-demand vehicle rentals.
-## Implementation Tools:
-1. **Terraform**
-2. **Docker**
-3. **AWS Services:** ECR, ECS, VPC, Internet Gateway, NAT Gateway, ASG, ELB, EC2, RDS, S3
-## Project Architecture:
-![Project Architecture](car-rental-terraform-ecs-project/Deploying a dynamic web application on AWS.jpg)
 
