@@ -24,5 +24,5 @@
 2. **Docker**
 3. **AWS Services:** ECR, ECS, VPC, Internet Gateway, NAT Gateway, ASG, ELB, EC2, RDS, S3
 ## Project Architecture:
-![RentZone Logo](Deploying a dynamic web application on AWS.jpg)
+![Project Architecture](car-rental-terraform-ecs-project/Deploying a dynamic web application on AWS.jpg)
 
